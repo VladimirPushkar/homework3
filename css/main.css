@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after { box-sizing:border-box; }
+a { text-decoration:none; color:inherit; cursor:pointer; }
+button { background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer; }
+figure{ margin:0; }
+ul, ol, dd { margin:0; padding:0; list-style:none; }
+h1, h2, h3, h4, h5, h6 { margin:0; font-size:inherit; font-weight:inherit; }
+p { margin:0; }
+cite { font-style:normal; }
+fieldset { border-width:0; padding:0; margin:0; }
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.fl {
+    float: left;
+}
+
+.nav-bt li {
+
+    font-size: 18px;
+    float: left;
+    padding-top: 49px;
+    color: #000;
+    font-family: 'DM Sans' sans-serif;
+
+}
+.nav-bt li:hover {
+
+    color: #FFCE40;
+    
+}
+
+.nav-bt li a {
+
+    text-transform: uppercase;
+    padding: 49px 32px;
+
+}
+
+.logo {
+
+    padding-top: 40px;
+
+}
+
+.lang {
+
+    margin: 32px 16px;
+    padding: 18px 24px;
+    border-radius: 15px;
+
+}
+
+.btn-download {
+
+    margin: 32px 16px;
+    padding: 18px 24px;
+    background: #000;
+    color: white;
+    border-radius: 15px;
+
+}
