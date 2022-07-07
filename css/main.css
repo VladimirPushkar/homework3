@@ -15,80 +15,54 @@ fieldset { border-width:0; padding:0; margin:0; }
     max-width: 1440px;
     margin: 0 auto;
     padding: 0px 15px;
-
 }
-
 .fl {
     float: left;
 }
-
+.flr {
+    float: right;
+}
 .nav-bt li {
-
     font-size: 18px;
     float: left;
     padding-top: 49px;
     color: #000;
     font-family: 'DM Sans' sans-serif;
-
 }
 .nav-bt li:hover {
-
     color: #FFCE40;
-    
 }
-
 .nav-bt li a {
-
     padding: 49px 32px;
-
 }
-
 .logo {
-
     padding-top: 40px;
-
 }
-
 .lang {
-
     margin: 32px 16px;
     padding: 18px 24px;
     border-radius: 15px;
-
 }
-
 .btn-download {
-
     margin: 32px 16px;
     padding: 18px 24px;
     background: #000;
     color: white;
     border-radius: 15px;
-
-}
-
-.offer {
-
-    padding: 168px ;
-    
-
 }
 
 .ptext {
     font-family: 'Open Sans', sans-serif;
-    background: #c50b0b;
-    padding: 7px 18px 11px 18px;
+    background: #868686;
+    padding: 7px 17px 11px 17px;
     border-radius: 15px;
     font-weight: 600;
     font-size: 22px;
     line-height: 24px;
     margin-top: 168px;
-
-
+    width: 370px;
 }
-
 .textoffer {
-
     font-family: 'Lato' sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -98,7 +72,6 @@ fieldset { border-width:0; padding:0; margin:0; }
     line-height: 50px;
     margin-top: 25px;
 }
-
 .poffer {
     width: 493px;
     font-family: 'Open Sans' sans-serif;
@@ -107,32 +80,63 @@ fieldset { border-width:0; padding:0; margin:0; }
     font-size: 20px;
     line-height: 24px;
     margin-top: 35px;
-
 }
-
 .imgangr {
-
     width: 179px;
-
-
 }
-
 .imgapple {
     width: 158px;
     margin-left: 20px;
-
-
 }
-
 .divoffer {
     margin-top: 42px;
 }
-
 .offerimg {
-
     position: absolute;
     width: 590px;
-
-    left: 770px;
+    left: 790px;
     top: 202px;
 }
+.stexth2 {
+    margin-top: 196px;
+    font-family: 'Lato' sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #1B1C1F;
+}
+
+.stextp {
+    margin-top: 10px;
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(27, 28, 31, 0.75);
+}
+.bute {
+    position: relative;
+    top: 48px;
+    left: 492px;
+
+
+}
+.bute input {
+    padding: 10px 14px;
+    width: 320px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #D5DAE1;
+    border-radius: 8px;
+}
+.btns {
+    position: relative;
+    width: 112px;
+    height: 48px;
+    left: 836px;
+    background: #1B1C1F;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 6px;
+    color: white;
+}
+
