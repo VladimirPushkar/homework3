@@ -12,21 +12,15 @@ fieldset { border-width:0; padding:0; margin:0; }
 
 .container {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
-    padding: 0px 15px;
-
+    padding: 0px 15px; 
 }
-.fl {
+.logo {
+    width: 197px;
+    height: 40px;
+    padding-top: 40px;
     float: left;
-}
-.flr {
-    float: right;
-}
-.offer {
-    background-color: #fff;
-    background-image: url(../img/fon1.jpg);
-    background-repeat: no-repeat;
 }
 .nav-bt li {
     font-size: 18px;
@@ -39,10 +33,7 @@ fieldset { border-width:0; padding:0; margin:0; }
     color: #FFCE40;
 }
 .nav-bt li a {
-    padding: 49px 32px;
-}
-.logo {
-    padding-top: 40px;
+    padding: 49px 24px;
 }
 .lang {
     margin: 32px 16px;
@@ -56,8 +47,34 @@ fieldset { border-width:0; padding:0; margin:0; }
     color: white;
     border-radius: 15px;
 }
+.btnrightnav .lang .btn-download {
+    float: right;
 
-.ptext {
+}
+
+.conteinerbg {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    background: #000;
+
+}
+.contentmain {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 15px;
+
+}
+.contentmainleft {
+    float: left;
+
+}
+.contentmainleft .tmainleft .tmainleft2 .tmainleft3 .mainimgleft{
+    float: left;
+}
+.tmainleft {
     font-family: 'Open Sans', sans-serif;
     background: #868686;
     padding: 7px 17px 11px 17px;
@@ -67,8 +84,9 @@ fieldset { border-width:0; padding:0; margin:0; }
     line-height: 24px;
     margin-top: 168px;
     width: 370px;
+
 }
-.textoffer {
+.tmainleft2 {
     font-family: 'Lato' sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -77,8 +95,9 @@ fieldset { border-width:0; padding:0; margin:0; }
     left: 152px;  
     line-height: 50px;
     margin-top: 25px;
+
 }
-.poffer {
+.tmainleft3{
     width: 493px;
     font-family: 'Open Sans' sans-serif;
     font-style: normal;
@@ -86,63 +105,26 @@ fieldset { border-width:0; padding:0; margin:0; }
     font-size: 20px;
     line-height: 24px;
     margin-top: 35px;
+
 }
-.imgangr {
-    width: 179px;
+.mainimgleft {
+    float: left;
+    margin-top: 40px;
+    
+
+
 }
-.imgapple {
-    width: 158px;
-    margin-left: 20px;
+.imgandr {
+
+
 }
-.divoffer {
-    margin-top: 42px;
+.appstore {
+
+
 }
-.offerimg {
-    position: absolute;
+.contentmainright img {
     width: 590px;
-    left: 790px;
-    top: 202px;
-}
-.stexth2 {
-    margin-top: 196px;
-    font-family: 'Lato' sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    color: #1B1C1F;
-}
-
-.stextp {
-    margin-top: 10px;
-    font-family: 'Open Sans' sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
-    color: rgba(27, 28, 31, 0.75);
-}
-.bute {
-    position: relative;
-    top: 48px;
-    left: 492px;
-
+    margin-top: 84px;
+    float: right;
 
 }
-.bute input {
-    padding: 10px 14px;
-    width: 320px;
-    height: 46px;
-    background: #FFFFFF;
-    border: 1px solid #D5DAE1;
-    border-radius: 8px;
-}
-.btns {
-    position: relative;
-    width: 112px;
-    height: 48px;
-    left: 16px;
-    background: #1B1C1F;
-    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
-    border-radius: 6px;
-    color: white;
-}
-
