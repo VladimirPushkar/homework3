@@ -134,7 +134,6 @@ fieldset { border-width:0; padding:0; margin:0; }
 }
 .textmainh  {
     margin: 0 auto;
-    width: 846px;
     font-family: 'Lato' sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -213,4 +212,28 @@ fieldset { border-width:0; padding:0; margin:0; }
 }
 .middle__column .btn-download {
     margin: 39px 0px 0px 120px;
+}
+.conteiner__main {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.conteiner__main .textmainh {
+    margin-top: 814px;
+}
+.conteiner__main .textmainp {
+    margin-top: 18px;
+}
+.right__imgmain {
+    width: 550px;
+    max-width: 550px;
+    float: right;
+    margin-top: 50px;
+    
+}
+.about__conteinertext {
+    width: 485px;
+    max-width: 485px;
+    float: left;
 }
